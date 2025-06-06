@@ -2,7 +2,8 @@ name: Build Baccarat Bot EXE
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build:
@@ -27,6 +28,3 @@ jobs:
         with:
           name: baccarat_bot_exe
           path: dist/baccarat_safe_bot.exe
-            losses += 1
-    else:
-        print(f"⚠️ NO SAFE SIGNAL — {reason.upper()} — WAIT THIS ROUND")

@@ -2,8 +2,7 @@
 import sys
 
 print("🃏 Baccarat Safe Strategy Bot")
-print("Only shows strong signals: Banker Bias, Streaks, Ping-Pong
-")
+print("Only shows strong signals: Banker Bias, Streaks, Ping-Pong\n")
 
 history = []
 balance = 100
